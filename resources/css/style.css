@@ -1,0 +1,144 @@
+/* ------------------------------------------ */
+              /* HEADER */
+/* ------------------------------------------ */
+
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(img/webqa_cam.jpg);}
+    
+/* ------------------------------------------ */
+              /* INTRODUCTION */ 
+/* ------------------------------------------ */
+
+.pre-text {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+/* ------------------------------------------ */
+              /* OUR OFFICES */ 
+/* ------------------------------------------ */
+
+.locations {
+    float: left;  
+    padding-top: 5%; 
+}
+
+.cities {
+    width: 368px;
+    height: 200px;
+}
+
+.key-tasks li {
+    list-style: none;
+    font-size: 90%;
+}
+
+h3 {
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+ .icon-small {
+    width: 30px;
+    display: inline-block;
+    line-height: 120%;
+    font-size: 140%;
+    color: #e67e22;
+    text-align: center;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+
+/* ------------------------------------------ */
+              /* MEET THE TEAM */ 
+/* ------------------------------------------ */
+
+.acd-team {
+    background-color: #f8f8f8;
+}
+
+.profile {
+   background-color: #fff;
+   box-shadow: 2px 2px 4px 2px #e2e2e2;
+   float: left;
+}
+    
+.name-logo {
+   text-align: center;
+   font-size: 340%;
+   background-color: #d6f8f2;
+   padding: 20px;
+   border-bottom: 1px solid #ebebeb;
+}
+    
+.initials {
+    color: #e67e22;
+    border: 4px solid #fcfcfc;
+    border-width: thick;
+    border-radius: 6%;
+    box-shadow: inset 0 0 10px #c7f6ee;   
+    background-color: #b8f3e9;
+}
+
+.fat {      
+    font-weight: 400;
+}
+
+.skinny {
+    font-weight: 200;
+}
+
+.staff-name h3 {
+   
+    padding: 5px;
+    font-size: 90%;   
+    margin-top: 20px;
+}
+
+.staff-name h3:after {
+    display: none;
+}
+
+.staff-name p {
+    text-align: center;
+    font-size: 90%;   
+    font-weight: 200;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    text-transform: uppercase;
+    color: #e67e22;
+}
+
+.staff-info {
+    font-size: 70%;
+    padding: 20px;
+    border-bottom: 1px solid #ebebeb;
+    background-color: #f7f7f7;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact li {
+    display: inline-block;
+    list-style: none;    
+}
+
+.icon-contact {
+    color: #e67e22;
+    width: 40px;
+    font-size: 140%;
+    margin: 10px;
+    padding: 5px 5px ;
+}
+
+.contact .skype {
+    color: #00aff0;
+}
+
+
+

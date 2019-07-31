@@ -1,0 +1,89 @@
+/* ------------------------------------------ */
+              /* HEADER */
+/* ------------------------------------------ */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.97)), url(img/webqa_banner_plain.jpg);}
+   
+/* ------------------------------------------ */
+              /* QUICK NOTES */
+/* ------------------------------------------ */
+
+.pre-text {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.quick-notes {
+    float: left;
+    padding: 15px;
+    background-color: #fff;
+    height: 750px;
+    border-radius: 1px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon-big {
+    width: 180px;
+    height: 180px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 3%;
+    max-width: 100%;
+    height: auto;
+    border: 12px double #afafaf;
+    box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    margin-top: 30px;      
+}  
+
+.quick-notes h3 {
+    text-align: center;
+    font-size: 120%;   
+    margin-top: 30px;
+}
+
+.quick-notes p {
+    margin-top: 20px;
+    padding: 2%;
+}
+
+/* ------------------------------------------ */
+              /* TEST TIPS */ 
+/* ------------------------------------------ */
+
+.test-tips {
+    background-color: rgba(217, 217, 217, 0.19);
+}
+
+.tiles {
+    float: left;  
+    position: relative;
+}
+
+.overlay {    
+    width: 368px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+h4 {
+    color: #e67e22;
+}
+
+.overlay p {
+    margin-bottom: 10px;
+}
+
+.overlay-content {
+  font-size: 80%;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  height: 90px;    
+  padding: 15px;
+}
+

@@ -1,0 +1,200 @@
+
+/* ------------------------------------------ */
+              /* HEADER */
+/* ------------------------------------------ */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(img/webqa_banner.jpg); }
+
+/* ------------------------------------------ */
+              /* LINKS*/
+/* ------------------------------------------ */
+
+a:link,
+a:visited {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #e67e22;
+}
+
+.inline-link:link,
+.inline-link:visited {
+    color: #e67e22;
+    text-decoration: none;
+    transition: border-bottom 0.2s;
+}
+
+.inline-link:hover,
+.inline-link:active {
+    color: #555;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 3px;
+}
+
+/* ------------------------------------------ */
+              /* PROJECTS */
+/* ------------------------------------------ */
+
+.pre-text {
+    width: 80%;
+    margin-left: 10%;   
+}
+
+.domain-detail {
+    color:#000;
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-info {
+    float: left;
+    transition: transform .4s;
+}
+
+.project-info:hover {
+    font-size: 95%;
+    padding: 10px;
+    background-color: #ffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 1px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.07);       
+}
+
+.icon-big {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+
+.project-info h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 2%;
+}
+
+.project-info p {
+    padding: 2%;
+    font-size: 95%;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+/* ------------------------------------------ */
+              /* QUOTE */
+/* ------------------------------------------ */
+
+.quote-mid{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.4)), url(img/webqa-pencil.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+    margin: 40px 0px -10px 0px;
+}
+
+.quote-mid blockquote {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 80px;
+    color: #fff;
+    font-size: 400%;  
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 2px;  
+    text-align:center;
+}
+
+.quote-mid cite{
+    color: #fff;
+    font-size: 280%;
+    letter-spacing: 1px;
+    word-spacing: 2px;  
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+/* ------------------------------------------ */
+              /*MARKETING */
+/* ------------------------------------------ */
+
+.marketing {
+    background-color: #f8f8f8;
+}
+
+.web-projects-ext {
+    margin-top: 60px;
+    padding: 2%;
+    margin-bottom: 40px;
+}
+
+.web-projects-ext img,
+.campaign-updates img,
+.icon-big {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;      
+}
+
+.web-projects-ext img {
+    vertical-align: middle;
+}
+
+.web-projects-ext p {
+   font-size: 110%;
+   margin-top: 30px;
+   margin-left: 100px; 
+}
+
+/* ------------------------------------------ */
+              /*CAMPAIGN*/
+/* ------------------------------------------ */
+
+.campaign {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95)), url(img/campaign.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 50px;    
+    color: #fff;
+    font-size: 120%;
+}
+
+.campaign h3 {
+    margin-top: 20px;
+}
+
+.campaign-updates img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 50px;
+    
+}
+
+.campaign-updates p {
+    text-align: justify;
+    padding: 2%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+
